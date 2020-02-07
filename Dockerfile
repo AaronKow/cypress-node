@@ -3,7 +3,7 @@ FROM cypress/base:11.13.0
 # avoid too many progress messages
 # https://github.com/cypress-io/cypress/issues/1243
 ENV CI=1
-ARG CYPRESS_VERSION="3.3.1"
+ARG CYPRESS_VERSION="3.8.3"
 
 RUN echo "whoami: $(whoami)"
 RUN npm config -g set user $(whoami)
