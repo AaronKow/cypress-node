@@ -6,6 +6,6 @@ Read [Run Cypress with a single Docker command](https://www.cypress.io/blog/2019
 
 ```shell
 $ docker run -it -v $PWD:/e2e -w /e2e --entrypoint cypress aaronkow/cypress-node:latest --version
-Cypress package version: 3.3.1
-Cypress binary version: 3.3.1
+Cypress package version: 3.8.3
+Cypress binary version: 3.8.3
 ```
